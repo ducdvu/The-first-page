@@ -1,0 +1,36 @@
+/* Global definition */
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+
+/* Local definition */
+.nav {
+    display:flex;
+    align-items: center;
+    background: #1F2937;
+    color: white;
+}
+
+.link {
+    flex: 1;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Intro {
+    display: flex;
+}
+
+.img_title {
+    flex:1;
+}
